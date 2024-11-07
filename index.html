@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falessorce Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+      .btn-hover-effect:hover {
+        background-color: #e20ed8;
+        color: #16e14c;
+        border: 1px solid #eeb409;
+        border-width: 2px;
+      }
+    </style>
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <a class="navbar-brand" href="#">Falessorce</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <body>
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+              <img src="images/hard-drive.jpg" class="card-img-top" alt="Service 1" />
+              <div class="card-body">
+                <h5 class="card-title">Hardware Repair</h5>
+                <p class="card-text">
+                  Our hardware repair service expertly fixes issues with
+                  laptops, desktops, smartphones, and tablets, including broken
+                  screens, faulty batteries, and malfunctioning keyboards. We
+                  use high-quality parts for lasting repairs and provide fast
+                  turnaround times to ensure your devices are quickly back in
+                  perfect working order.
+                </p>
+                <a href="#" class="btn btn-primary btn-hover-effect">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+              <img src="images/cloud.jpg" class="card-img-top" alt="Service 2" />
+              <div class="card-body">
+                <h5 class="card-title">Cloud Migration</h5>
+                <p class="card-text">
+                  Our cloud migration service seamlessly transitions your data,
+                  applications, and infrastructure to the cloud, ensuring
+                  minimal disruption and maximum efficiency. We provide expert
+                  guidance and support throughout the process, guaranteeing
+                  secure, scalable, and cost-effective cloud solutions tailored
+                  to your business needs.
+                </p>
+                <a href="#" class="btn btn-primary btn-hover-effect">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+              <img src="images/padlock.jpg" class="card-img-top" alt="Service 3" />
+              <div class="card-body">
+                <h5 class="card-title">Cyber Security</h5>
+                <p class="card-text">
+                  Our cybersecurity service protects your business from digital
+                  threats with advanced security solutions and proactive
+                  monitoring. We ensure your data and systems are secure,
+                  compliant, and resilient against cyberattacks, providing peace
+                  of mind and safeguarding your operations.
+                </p>
+                <a href="#" class="btn btn-primary btn-hover-effect">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <form>
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control input-lg"
+                id="name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="service">Service Interested In</label>
+              <select class="form-control" id="service">
+                <option>Hardware Repair</option>
+                <option>Cloud Migration</option>
+                <option>Cyber Security</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
